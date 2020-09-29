@@ -2,6 +2,8 @@
 
 # Group memembers : Kelly, Remon, Maksim, Samira, Brenda(Shijing)
 
+# make sure your tages name use semantic tags!
+
 # Sign in/up and password reset page, use css/authentication.css to style css.
 
 # index.html is home page.
