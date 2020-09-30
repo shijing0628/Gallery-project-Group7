@@ -1,3 +1,9 @@
+//sticky header for home page
+window.addEventListener("scroll", function () {
+  var header = document.querySelector("header");
+  header.classList.toggle("sticky", window.scrollY > 0);
+});
+
 // home page slider
 let temp = 0;
 var sliders = document.getElementsByClassName("mySlides");
@@ -33,9 +39,3 @@ var plusSlides = function () {
 var previousSlides = function () {
   slidersDisplay(temp - 1);
 };
-
-//sticky header for home page
-window.addEventListener("scroll", function () {
-  var header = document.querySelector("header");
-  header.classList.toggle("sticky", window.scrollY > 0);
-});

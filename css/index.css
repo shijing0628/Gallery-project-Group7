@@ -13,25 +13,29 @@
 }
 .div1,
 .div2,
-.div3 {
+.div3,
+.div4 {
   width: 100%;
   margin-bottom: 10px;
   background-size: cover;
   background-position: center;
   height: 100vh;
-  filter: brightness(50%);
+  filter: brightness(55%);
 }
 
 .div1 {
-  background-image: url("https://images.unsplash.com/photo-1507643179773-3e975d7ac515?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+  background-image: url("https://images.unsplash.com/photo-1518998053901-5348d3961a04?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
 }
 
 .div2 {
-  background-image: url("https://abbozzogallery.com/abb18/wp-content/uploads/2019/08/wide-angle-gallery-collective-remix.jpg");
+  background-image: url("https://www.burnaby.ca/Assets/New+Things+To+Do/Arts+$!26+Heritage/Burnaby+Art+Gallery/BAG+Exhibitions.jpg");
 }
 
 .div3 {
   background-image: url("https://www.savingnspending.com/wp-content/uploads/2016/03/dsc0017-9.jpg");
+}
+.div4 {
+  background-image: url("https://assets.simpleviewinc.com/simpleview/image/upload/crm/vancouverbc/VAG-Landon-Mackenzie-1001_b7ca39cb-5056-b3a8-49387b313d5abd16.jpg");
 }
 
 .prev,
@@ -51,7 +55,7 @@
 
 .prev:hover,
 .next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .prev {
