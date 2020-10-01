@@ -5,7 +5,82 @@
     margin-top: 110px;
   }
   
+  .slideshow-container {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    position: relative;
+  }
+  .div1,
+  .div2,
+  .div3,
+  .div4 {
+    width: 100%;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    filter: brightness(55%);
+  }
   
+  .div1 {
+    background-image: url("https://images.unsplash.com/photo-1518998053901-5348d3961a04?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+  }
+  
+  .div2 {
+    background-image: url("https://www.burnaby.ca/Assets/New+Things+To+Do/Arts+$!26+Heritage/Burnaby+Art+Gallery/BAG+Exhibitions.jpg");
+  }
+  
+  .div3 {
+    background-image: url("https://www.savingnspending.com/wp-content/uploads/2016/03/dsc0017-9.jpg");
+  }
+  .div4 {
+    background-image: url("https://assets.simpleviewinc.com/simpleview/image/upload/crm/vancouverbc/VAG-Landon-Mackenzie-1001_b7ca39cb-5056-b3a8-49387b313d5abd16.jpg");
+  }
+  
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    width: auto;
+    top: 50%;
+    margin-top: -22px;
+    color: #fff;
+    padding: 16px;
+    font-weight: bold;
+    font-size: 30px;
+    transition: background-color 0.6s ease-in-out;
+    border-radius: 5px;
+  }
+  
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .prev {
+    left: 0;
+  }
+  
+  .next {
+    right: 0;
+  }
+  
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {
+      opacity: 0.7;
+    }
+    to {
+      opacity: 1;
+    }
+  }
   
   
   label {
