@@ -44,7 +44,7 @@ header {
   font-size: 18px;
   color: #fff;
   font-weight: 600;
-  transition: 0.2s;
+  transition: 0.5s;
   transition-property: background-color;
 }
 
@@ -63,7 +63,7 @@ header {
   left: 0;
   width: 250px;
   height: 100vh;
-  transition: all 0.2s;
+  transition: all 0.5s;
 }
 .side-bar .profile_image {
   width: 100px;
@@ -138,7 +138,7 @@ label #sidebar_btn:hover {
   padding-top: 80px;
   padding-left: 1%;
   display: flex;
-  flex-wrap: wrap; 
+  flex-wrap: wrap; background:blue;
 }
 
 .add-photo-btn,
@@ -154,7 +154,7 @@ label #sidebar_btn:hover {
   border-radius: 50px;
   border: 2px solid green;
   cursor: pointer;
-  transition: transform 0.2s;
+  transition: transform 0.3s;
   margin-left: 1%;
   border-radius: 15px !important;
 }
@@ -260,16 +260,20 @@ label #sidebar_btn:hover {
 .table-container {
   margin-top: 450px;
   position: relative;
-  margin:5% 0% 10% 15%;
 }
 .table-container-category {
-
+  margin-top: 300px;
   position: relative;
 }
 .content-table {
   border-collapse: collapse;
-  font-size: 1vw;
+  margin: 25px 0;
+  font-size: 16px;
   width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   border-radius: 5px 5px 0 0;
   overflow: hidden;
   box-shadow: 2px 0 10px rgba(0, 0, 0, 0.15);
@@ -286,7 +290,7 @@ label #sidebar_btn:hover {
 }
 .content-table thead tr th {
   padding-top: 20px;
-  padding-bottom: 20px; 
+  padding-bottom: 20px;
 }
 
 .content-table td {
@@ -294,15 +298,6 @@ label #sidebar_btn:hover {
   margin-bottom: 15px;
   text-align: center;
 }
-
-.content-table tr:nth-of-type(even):hover{background:rgba(220,0,220,1); color:white; }
-.content-table tr:nth-of-type(odd):hover{background:rgba(220,0,220,1); color:white;}
-
-.content-table tr:hover .edit-btn, .fa-trash{ color:white; }
-.content-table tr:hover .fa-trash{ color:white; }
-
-.content-table tr:hover img{ background:rgba(200,200,200,1); transition:0.2s; }
-
 
 .content-table tbody tr {
   border-bottom: 1px solid rgb(238, 238, 238);
@@ -334,12 +329,12 @@ label #sidebar_btn:hover {
 .bg-modal-edit,
 .bg-modal-delete {
   opacity: 1;
-  width: 123%;
-  height: 130vh;
+  width: 100%;
+  height: 100vh;
   background-color: rgba(0, 0, 0, 0.7);
   position: absolute;
-  top: 10vw;
-  left: -40vh;
+  top: 0;
+  left: 0;
   z-index: 11;
   display: flex;
   justify-content: center;
@@ -429,7 +424,7 @@ label #sidebar_btn:hover {
   border: 1px solid tomato;
   font-size: 18px;
   border-radius: 15px;
-  transition: all 0.2s;
+  transition: all 0.5s;
 }
 
 .del-btn:hover {
