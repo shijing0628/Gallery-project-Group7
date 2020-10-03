@@ -5,13 +5,13 @@ const sublinks = [
       {
         label: "Oil Painting",
         icon: "fa fa-paint-brush",
-        url: "oilpainting.html",
+        url: "category-oilpainting.html",
       },
       { label: "Aryclic", icon: "fa fa-paint-brush", url: "aryclic.html" },
       {
         label: "WatorColor",
         icon: "fa fa-paint-brush",
-        url: "watercolor.html",
+        url: "category-wator-color.html",
       },
       {
         label: "Chinese Painting",

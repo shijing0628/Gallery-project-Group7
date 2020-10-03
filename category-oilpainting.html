@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=">
+ <!-- font-family: 'Raleway', sans-serif; great vibes-->
+ <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css" />
+ <link rel="stylesheet" type="text/css" href="./css/category-oilpainting.css">
+ <link rel="stylesheet" href="css/submenu.css">
+ <link rel="stylesheet" href="css/general.css">
+ <title>Photo Gallery</title>
+</head>
+
+<body>
+
+ <!-- header 1 -->
+ <header>
+  <a href="index.html" class="logo">Art Gallery</a>
+  <nav class="nav-bar">
+   <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="category.html" class="link-btn">Photo Gallery</a></li>
+    <li><a href="about.html" class="link-btn">About Us</a></li>
+    <li><a href="contact.html" class="link-btn">Contact Us</a></li>
+   </ul>
+   <a href="login.html"><button type="button" class="login-btn">Admin Login</button></a>
+  </nav>
+ </header>
+ <section>
+  <div class="imgBox"><img
+    src="https://media.overstockart.com/optimized/cache/data/product_images/MON1239-1000x1000.jpg" target="imgBox"
+    width="1200" height="700">
+  </div>
+
+  <ul class="thumb">
+   <li><a href="https://media.overstockart.com/optimized/cache/data/product_images/MON1239-1000x1000.jpg"
+     target="imgBox"><img src="https://media.overstockart.com/optimized/cache/data/product_images/MON1239-1000x1000.jpg"
+      width="120" height="70"></a></li>
+   <li><a
+     href="https://www.artmajeur.com/medias/standard/l/e/leonidafremov/artwork/8638750_evening-trolley-on-the-square-leonid-afremov.jpg"
+     target="imgBox"><img
+      src="https://www.artmajeur.com/medias/standard/l/e/leonidafremov/artwork/8638750_evening-trolley-on-the-square-leonid-afremov.jpg"
+      width="120" height="70"></a></li>
+   <li><a
+     href="https://static1.squarespace.com/static/57f0b8c859cc68fe6a908fb7/57fcb254e58c620da361e3fa/57f5d69fc030265324fb8f1a/1565357545668/The+Summer%2C+Poppy+Field+by+Claude+Monet-+Famous+Art+-+Handmade+Oil+Painting+on+Canvas.jpg?format=1500w"
+     target="imgBox"><img
+      src="https://static1.squarespace.com/static/57f0b8c859cc68fe6a908fb7/57fcb254e58c620da361e3fa/57f5d69fc030265324fb8f1a/1565357545668/The+Summer%2C+Poppy+Field+by+Claude+Monet-+Famous+Art+-+Handmade+Oil+Painting+on+Canvas.jpg?format=1500w"
+      width="120" height="70"></a></li>
+   <li><a
+     href="https://cs1.livemaster.ru/storage/d6/fa/a976ba6ac75eaa199e6a765bfdtw--landscapes-oil-painting-canvas-claude-monet-s-garden-giverny.jpg"
+     target="imgBox"><img
+      src="https://cs1.livemaster.ru/storage/d6/fa/a976ba6ac75eaa199e6a765bfdtw--landscapes-oil-painting-canvas-claude-monet-s-garden-giverny.jpg"
+      width="120" height="70"></a></li>
+   <li><a
+     href="https://www.arthipo.com/image/cache/catalog/artists-painters/claude-monet/CM004-claude-monet-haystack-at-giverny-1886-1000x1000.jpg"
+     target="imgBox" width="120"><img
+      src="https://www.arthipo.com/image/cache/catalog/artists-painters/claude-monet/CM004-claude-monet-haystack-at-giverny-1886-1000x1000.jpg"
+      width="120" height="70"></a></li>
+  </ul>
+ </section>
+ <aside class="submenu">
+ </aside>
+ <footer>
+  <div class="container">
+   <a href="index.html" class="logo">Art Gallery</a>
+   <div class="footer-content">
+    <p>Tagline lorem ipsum dolor sit amet, consectetur adipiscing eiusmod</p>
+   </div>
+   <div class="footer-end">
+    <p>© 2018 Company. Privacy Policy | Terms & Conditions</p>
+   </div>
+   <div class="social-icons">
+    <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i>
+    </a>
+    <a href="https://www.youtube.com/""><i class=" fab fa-youtube"></i> </a>
+    <a href="https://twitter.com/?lang=en"><i class="fab fa-twitter"></i> </a>
+    <a href="https://www.instagram.com/?hl=en"><i class="fab fa-instagram"></i> </a>
+    <a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i> </a>
+   </div>
+  </div>
+ </footer>
+ <script>
+  $(document).ready(function () {
+   $('.thumb a').click(function (e) {
+    e.preventDefault();
+    $('.imgBox img').attr("src", $(this).attr("href"));
+   })
+  })
+ </script>
+ <script type="text/javascript" src="./js/index.js"></script>
+ <script type="module" src="./js/submenu.js"></script>
+</body>
+
+</html>
