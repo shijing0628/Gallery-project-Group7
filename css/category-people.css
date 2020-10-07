@@ -1,0 +1,109 @@
+.gallery-Introduction {    
+    max-width: 800px;    
+    margin: 180px auto 36px auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-align: center;
+}
+
+.gallery-Introduction h1 {
+    margin-bottom: 16px;
+}
+
+.gallery-Filters {   
+    margin: 16px auto 16px auto;
+    text-align: center;
+}
+
+.gallery-collection {
+    margin-bottom: 80px;
+}
+
+.gallery-wrapper {
+    max-width: 90%;
+    margin: auto;
+}
+
+.image-row {
+    display: flex;
+    display: -ms-flexbox; 
+    flex-wrap: wrap;
+    -ms-flex-wrap: wrap; 
+    padding: 0;     
+}
+
+/* Four equal columns side by side */
+.image-column {
+    flex: 25%;
+    -ms-flex: 25%; 
+    max-width: 25%;
+    padding:0 8px;
+    display: none;
+}
+
+.image-container {    
+    margin-top: 16px;    
+}
+
+.image-container img {
+    vertical-align: middle;
+    width: 100%;
+}
+
+.showCategory {
+    display: block;      
+    max-width: 100%; 
+}
+
+.btn {    
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 0 25px;
+    height: 40px;
+    font-size: 16px;
+    line-height: 40px;
+    border-radius: 25px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    margin-left: 4px;
+}
+
+.btn:hover {
+    background-color: #cccccc;
+}
+
+.btn.active {
+    background-color: #666666;
+    color: #ffffff;
+}
+
+/* Responsive layout - makes a two column layout */
+@media screen and (max-width: 768px) {
+    .image-column {
+        flex: 50%;
+        -ms-flex: 50%; /* IE10 */
+        max-width: 50%;
+    }
+
+    .btn {            
+        padding: 0 20px;
+        height: 30px;
+        font-size: 14px;
+        line-height: 30px;
+        border-radius: 20px;
+        background-color: #f1f1f1;
+        cursor: pointer;
+        margin-left: 4px;
+        margin-bottom: 8px;
+    }
+}
+
+/* Responsive layout - makes a two column layout */
+@media screen and (max-width: 600px) {
+    .image-column {
+        flex: 100%;
+        -ms-flex: 100%; /* IE10 */
+        max-width: 100%;
+    }
+}
