@@ -1,0 +1,22 @@
+h1 {
+    padding-top: 150px;
+    padding-left: 20px;
+    text-align: center;
+}
+.parent {
+    padding: 10px;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.child {
+    padding:20px;
+    width: 300px;
+    text-align: center;
+}
+.text {
+    padding:20px;
+    max-width: 1000px;
+    text-align: center;
+}
