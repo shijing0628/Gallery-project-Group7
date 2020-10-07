@@ -33,57 +33,59 @@
  <!-- End of Common Header-->
 
  <!-- Kelly's code below-->
- <h1>
-  About us
- </h1>
- <div class="parent">
-  <p class="text">Here's a little bit about our team. We're a small, but passionate design studio specializing in
-   photography. Here's a little bit about our team. We're a small, but passionate design studio specializing in
-   photography. Here's a little bit about our team. We're a small, but passionate design studio specializing in
-   photography. Here's a little bit about our team. We're a small, but passionate design studio specializing in
-   photography. Here's a little bit about our team. We're a small, but passionate design studio specializing in
-   photography. Here's a little bit about our team. We're a small, but passionate design studio specializing in
-   photography. Here's a little bit about our team. We're a small, but passionate design studio specializing in
-   photography. Here's a little bit about our team. We're a small, but passionate design studio specializing in
-   photography.
-  </p>
- </div>
- <div class="parent">
-  <div class="child">
-   <img src="images/aboutUsImages/CEO.png" height="200px" width="200px">
-   <br>
-   <h3>CEO</h3>
-   <br>
-   <p>This is our CEO, she's great</p>
+ <section class="hero">
+  <h1>
+   About us
+  </h1>
+  <div class="parent">
+   <p class="text">Here's a little bit about our team. We're a small, but passionate design studio specializing in
+    photography. Here's a little bit about our team. We're a small, but passionate design studio specializing in
+    photography. Here's a little bit about our team. We're a small, but passionate design studio specializing in
+    photography. Here's a little bit about our team. We're a small, but passionate design studio specializing in
+    photography. Here's a little bit about our team. We're a small, but passionate design studio specializing in
+    photography. Here's a little bit about our team. We're a small, but passionate design studio specializing in
+    photography. Here's a little bit about our team. We're a small, but passionate design studio specializing in
+    photography. Here's a little bit about our team. We're a small, but passionate design studio specializing in
+    photography.
+   </p>
   </div>
-  <div class="child">
-   <img src="images/aboutUsImages/EquipmentManager.png" height="200px" width="200px">
-   <br>
-   <h3>Equipment Manager</h3>
-   <br>
-   <p>This is our Equipment Manager, she's great</p>
+  <div class="parent">
+   <div class="child">
+    <img src="images/aboutUsImages/CEO.png" height="200px" width="200px">
+    <br>
+    <h3>CEO</h3>
+    <br>
+    <p>This is our CEO, she's great</p>
+   </div>
+   <div class="child">
+    <img src="images/aboutUsImages/EquipmentManager.png" height="200px" width="200px">
+    <br>
+    <h3>Equipment Manager</h3>
+    <br>
+    <p>This is our Equipment Manager, she's great</p>
+   </div>
   </div>
- </div>
- <div class="parent">
-  <div class="child">
-   <img src="images/aboutUsImages/BookingsManager.png" height="200px" width="200px">
-   <br>
-   <h3>Bookings Manager</h3>
-   <br>
-   <p>This is our Bookings Manager, he's great</p>
+  <div class="parent">
+   <div class="child">
+    <img src="images/aboutUsImages/BookingsManager.png" height="200px" width="200px">
+    <br>
+    <h3>Bookings Manager</h3>
+    <br>
+    <p>This is our Bookings Manager, he's great</p>
+   </div>
+   <div class="child">
+    <img src="images/aboutUsImages/Photographer.png" height="200px" width="200px">
+    <br>
+    <h3>Photographer</h3>
+    <br>
+    <p>This is our Photographer, he's great</p>
+   </div>
   </div>
-  <div class="child">
-   <img src="images/aboutUsImages/Photographer.png" height="200px" width="200px">
-   <br>
-   <h3>Photographer</h3>
-   <br>
-   <p>This is our Photographer, he's great</p>
-  </div>
- </div>
- <!-- Kelly's code ended-->
+  <!-- Kelly's code ended-->
 
- <aside class="submenu">
- </aside>
+  <aside class="submenu">
+  </aside>
+ </section>
  <!-- Common Footer-->
  <footer>
   <div class="container">
@@ -104,7 +106,13 @@
    </div>
   </div>
  </footer>
- <script type="text/javascript" src="./js/index.js"></script>
+ <script>
+  //sticky header for home page
+  window.addEventListener("scroll", function () {
+   var header = document.querySelector("header");
+   header.classList.toggle("sticky", window.scrollY > 0);
+  });
+ </script>
  <script type="module" src="./js/submenu.js"></script>
  <!-- End of Common Footer-->
 </body>
