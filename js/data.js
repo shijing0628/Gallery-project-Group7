@@ -14,9 +14,9 @@ const sublinks = [
         url: "category-wator-color.html",
       },
       {
-        label: "Chinese Painting",
+        label: "People Photos",
         icon: "fa fa-paint-brush",
-        url: "chinesepainting.html",
+        url: "category-people.html",
       },
       {
         label: "Sketch",

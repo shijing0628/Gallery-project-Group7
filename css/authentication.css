@@ -77,3 +77,6 @@ input[type="password"]:focus {
   background-color: #ddd;
   outline: none;
 }
+form {
+  height: calc(100vh - 60px);
+}
