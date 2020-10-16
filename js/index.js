@@ -5,6 +5,7 @@ window.addEventListener("scroll", function () {
   header.classList.toggle("sticky", window.scrollY > 0);
 });
 
+
 // burger menu
 const navSlide = () => {
   const burger = document.querySelector('.burger');

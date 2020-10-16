@@ -66,7 +66,7 @@ a {
 .submenu-center a {
   width: 9rem;
   display: block;
-  color: #e91e69;
+  color: tomato;
   text-transform: capitalize;
 }
 .submenu-center i {
