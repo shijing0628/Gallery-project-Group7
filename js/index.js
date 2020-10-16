@@ -1,10 +1,14 @@
+
+
 //sticky header for home page
 window.addEventListener("scroll", function () {
   var header = document.querySelector("header");
   header.classList.toggle("sticky", window.scrollY > 0);
 });
 
+
 // home page slider
+
 let temp = 0;
 var sliders = document.getElementsByClassName("mySlides");
 
@@ -39,3 +43,23 @@ var plusSlides = function () {
 var previousSlides = function () {
   slidersDisplay(temp - 1);
 };
+
+
+// burger menu
+const navSlide = () => {
+  const burger = document.querySelector('.burger');
+  const nav = document.querySelector('.nav-link');
+  const navLinks = document.querySelector('.nav-link li')
+  burger.addEventListener('click', () => {
+    console.log('hi')
+    nav.classList.toggle('nav-active');
+  })
+
+  navLinks.forEach((link, index) => {
+    link.style.animation = `navLinkFade .5s ease forwards ${index / 7 + 2}s`
+  })
+
+}
+navSlide();
+
+

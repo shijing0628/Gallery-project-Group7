@@ -1,182 +1,259 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <!-- font-family: 'Raleway', sans-serif; great vibes -->
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css" />
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/submenu.css">
-    <link rel="stylesheet" href="css/general.css">
-    <link rel="stylesheet" href="css/category-people.css">    
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Righteous&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="//use.fontawesome.com/releases/v5.0.7/css/all.css"
+    />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/submenu.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/category-people.css" />
     <title>Art Gallery</title>
-</head>
+  </head>
 
-<body>
- <!-- header -->
- <header>
-    <a href="index.html" class="logo">Art Gallery</a>
-    <nav class="nav-bar">
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="gallery.html" class="link-btn">Photo Gallery</a></li>
-            <li><a href="about.html" class="link-btn">About Us</a></li>
-            <li><a href="contact.html" class="link-btn">Contact Us</a></li>
+  <body>
+    <!-- header -->
+    <header>
+      <a href="index.html" class="logo">Art Gallery</a>
+      <nav class="nav-bar">
+        <ul class="nav-link">
+          <li><a href="#">Home</a></li>
+          <li><a href="gallery.html" class="link-btn">Photo Gallery</a></li>
+          <li><a href="about.html" class="link-btn">About Us</a></li>
+          <li><a href="contact.html" class="link-btn">Contact Us</a></li>
         </ul>
-        <a href="login.html"><button type="button" class="login-btn">Admin Login</button></a>
-    </nav>
- </header>
- 
- <main>
-    <!-- Section - Introduction -->
-    <section class="gallery-Introduction">
+        <a href="login.html"
+          ><button type="button" class="login-btn">Admin Login</button></a
+        >
+      </nav>
+    </header>
+
+    <main>
+      <!-- Section - Introduction -->
+      <section class="gallery-Introduction">
         <div>
-            <h1>People Photos</h1>
-            <p>This search page features pictures of people, people photography and portrait pictures. 
-                All these free images of people can be used according to the open Pexels license.</p>
+          <h1>People Photos</h1>
+          <p>
+            This search page features pictures of people, people photography and
+            portrait pictures. All these free images of people can be used
+            according to the open Pexels license.
+          </p>
         </div>
-    </section>
+      </section>
 
-    <!-- Section - Filters -->
-    <section class="gallery-Filters">
+      <!-- Section - Filters -->
+      <section class="gallery-Filters">
         <div id="categoryBtnContainer">
-            <button class="btn active" onclick="filterCategory('all')">People</button>
-            <button class="btn" onclick="filterCategory('family')">Family</button>
-            <button class="btn" onclick="filterCategory('friends')">Friends</button>
-            <button class="btn" onclick="filterCategory('couple')">Couple</button>
-            <button class="btn" onclick="filterCategory('love')">Love</button>
+          <button class="btn active" onclick="filterCategory('all')">
+            People
+          </button>
+          <button class="btn" onclick="filterCategory('family')">Family</button>
+          <button class="btn" onclick="filterCategory('friends')">
+            Friends
+          </button>
+          <button class="btn" onclick="filterCategory('couple')">Couple</button>
+          <button class="btn" onclick="filterCategory('love')">Love</button>
         </div>
-    </section>
+      </section>
 
-    <!-- Section - People Collection -->
-    <section class="gallery-collection">
+      <!-- Section - People Collection -->
+      <section class="gallery-collection">
         <div class="gallery-wrapper">
-            <div class="image-row">
-                <div class="image-column family"> 
-                    <div class="image-container">                  
-                        <a name="Oil Painting" href="category-oilpainting.html">
-                            <img src="/images/people-category-1.jpg" alt="Photo by Daria Shevtsova from Pexels">
-                        </a>                       
-                    </div> 
-                    <div class="image-container">                  
-                        <a name="Oil Painting" href="category-oilpainting.html">
-                            <img src="/images/people-category-2.jpg" alt="Photo by Robert Stokoe from Pexels">
-                        </a>                       
-                    </div>
-                    <div class="image-container">                  
-                        <a name="Oil Painting" href="category-oilpainting.html">
-                            <img src="/images/people-category-3.jpg" alt="Photo by Nicholas Githiri from Pexels">
-                        </a>                       
-                    </div>
-                    <div class="image-container">                  
-                        <a name="Oil Painting" href="category-oilpainting.html">
-                            <img src="/images/people-category-1.jpg" alt="Photo by Daria Shevtsova from Pexels">
-                        </a>                       
-                    </div>                   
-                </div>
-                <div class="image-column friends"> 
-                    <div class="image-container">                  
-                        <a name="Oil Painting" href="category-oilpainting.html">
-                            <img src="/images/people-category-3.jpg" alt="Photo by Nicholas Githiri from Pexels">
-                        </a>                       
-                    </div> 
-                    <div class="image-container">                  
-                        <a name="Oil Painting" href="category-oilpainting.html">
-                            <img src="/images/people-category-5.jpg" alt="Photo by Yulianto Poitier from Pexels">
-                        </a>                       
-                    </div>
-                    <div class="image-container">                  
-                        <a name="Oil Painting" href="category-oilpainting.html">
-                            <img src="/images/people-category-4.jpg" alt="Photo by Migs Reyes from Pexels">
-                        </a>                       
-                    </div>
-                    <div class="image-container">                  
-                        <a name="Oil Painting" href="category-oilpainting.html">
-                            <img src="/images/people-category-8.jpg" alt="Photo by Jaime Reimer from Pexels">
-                        </a>                       
-                    </div>                    
-                </div>
-                <div class="image-column love"> 
-                    <div class="image-container">                  
-                        <a name="Oil Painting" href="category-oilpainting.html">
-                            <img src="/images/people-category-4.jpg" alt="Photo by Migs Reyes from Pexels">
-                        </a>                       
-                    </div> 
-                    <div class="image-container">                  
-                        <a name="Oil Painting" href="category-oilpainting.html">
-                            <img src="/images/people-category-6.jpg" alt="Photo by lehandross from Pexels">
-                        </a>                       
-                    </div>
-                    <div class="image-container">                  
-                        <a name="Oil Painting" href="category-oilpainting.html">
-                            <img src="/images/people-category-10.jpg" alt="Photo by Taryn Elliott from Pexels">
-                        </a>                       
-                    </div>
-                    <div class="image-container">                  
-                        <a name="Oil Painting" href="category-oilpainting.html">
-                            <img src="/images/people-category-12.jpg" alt="Photo by Flo Maderebner from Pexels">
-                        </a>                       
-                    </div>                    
-                </div>
-                <div class="image-column couple"> 
-                    <div class="image-container">                  
-                        <a name="Oil Painting" href="category-oilpainting.html">
-                            <img src="/images/people-category-8.jpg" alt="Photo by Jaime Reimer from Pexels">
-                        </a>                       
-                    </div> 
-                    <div class="image-container">                  
-                        <a name="Oil Painting" href="category-oilpainting.html">
-                            <img src="/images/people-category-7.jpg" alt="Photo by lehandross from Pexels">
-                        </a>                       
-                    </div>
-                    <div class="image-container">                  
-                        <a name="Oil Painting" href="category-oilpainting.html">
-                            <img src="/images/people-category-11.jpg" alt="Photo by Andreas Wohlfahrt from Pexels">
-                        </a>                       
-                    </div>
-                    <div class="image-container">                  
-                        <a name="Oil Painting" href="category-oilpainting.html">
-                            <img src="/images/people-category-9.jpg" alt="Photo by cottonbro from Pexels">
-                        </a>                       
-                    </div>                    
-                </div>
-            </div>            
-        </div>   
-    </section>
- </main>
- 
+          <div class="image-row">
+            <div class="image-column family">
+              <div class="image-container">
+                <a name="Oil Painting" href="category-oilpainting.html">
+                  <img
+                    src="/images/people-category-1.jpg"
+                    alt="Photo by Daria Shevtsova from Pexels"
+                  />
+                </a>
+              </div>
+              <div class="image-container">
+                <a name="Oil Painting" href="category-oilpainting.html">
+                  <img
+                    src="/images/people-category-2.jpg"
+                    alt="Photo by Robert Stokoe from Pexels"
+                  />
+                </a>
+              </div>
+              <div class="image-container">
+                <a name="Oil Painting" href="category-oilpainting.html">
+                  <img
+                    src="/images/people-category-3.jpg"
+                    alt="Photo by Nicholas Githiri from Pexels"
+                  />
+                </a>
+              </div>
+              <div class="image-container">
+                <a name="Oil Painting" href="category-oilpainting.html">
+                  <img
+                    src="/images/people-category-1.jpg"
+                    alt="Photo by Daria Shevtsova from Pexels"
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="image-column friends">
+              <div class="image-container">
+                <a name="Oil Painting" href="category-oilpainting.html">
+                  <img
+                    src="/images/people-category-3.jpg"
+                    alt="Photo by Nicholas Githiri from Pexels"
+                  />
+                </a>
+              </div>
+              <div class="image-container">
+                <a name="Oil Painting" href="category-oilpainting.html">
+                  <img
+                    src="/images/people-category-5.jpg"
+                    alt="Photo by Yulianto Poitier from Pexels"
+                  />
+                </a>
+              </div>
+              <div class="image-container">
+                <a name="Oil Painting" href="category-oilpainting.html">
+                  <img
+                    src="/images/people-category-4.jpg"
+                    alt="Photo by Migs Reyes from Pexels"
+                  />
+                </a>
+              </div>
+              <div class="image-container">
+                <a name="Oil Painting" href="category-oilpainting.html">
+                  <img
+                    src="/images/people-category-8.jpg"
+                    alt="Photo by Jaime Reimer from Pexels"
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="image-column love">
+              <div class="image-container">
+                <a name="Oil Painting" href="category-oilpainting.html">
+                  <img
+                    src="/images/people-category-4.jpg"
+                    alt="Photo by Migs Reyes from Pexels"
+                  />
+                </a>
+              </div>
+              <div class="image-container">
+                <a name="Oil Painting" href="category-oilpainting.html">
+                  <img
+                    src="/images/people-category-6.jpg"
+                    alt="Photo by lehandross from Pexels"
+                  />
+                </a>
+              </div>
+              <div class="image-container">
+                <a name="Oil Painting" href="category-oilpainting.html">
+                  <img
+                    src="/images/people-category-10.jpg"
+                    alt="Photo by Taryn Elliott from Pexels"
+                  />
+                </a>
+              </div>
+              <div class="image-container">
+                <a name="Oil Painting" href="category-oilpainting.html">
+                  <img
+                    src="/images/people-category-12.jpg"
+                    alt="Photo by Flo Maderebner from Pexels"
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="image-column couple">
+              <div class="image-container">
+                <a name="Oil Painting" href="category-oilpainting.html">
+                  <img
+                    src="/images/people-category-8.jpg"
+                    alt="Photo by Jaime Reimer from Pexels"
+                  />
+                </a>
+              </div>
+              <div class="image-container">
+                <a name="Oil Painting" href="category-oilpainting.html">
+                  <img
+                    src="/images/people-category-7.jpg"
+                    alt="Photo by lehandross from Pexels"
+                  />
+                </a>
+              </div>
+              <div class="image-container">
+                <a name="Oil Painting" href="category-oilpainting.html">
+                  <img
+                    src="/images/people-category-11.jpg"
+                    alt="Photo by Andreas Wohlfahrt from Pexels"
+                  />
+                </a>
+              </div>
+              <div class="image-container">
+                <a name="Oil Painting" href="category-oilpainting.html">
+                  <img
+                    src="/images/people-category-9.jpg"
+                    alt="Photo by cottonbro from Pexels"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
 
- <!-- sub menu -->
- <aside class="submenu">
- </aside>
+    <!-- sub menu -->
+    <aside class="submenu"></aside>
 
- <footer>
-  <div class="container">
-   <a href="index.html" class="logo">Art Gallery</a>
-   <div class="footer-content">
-    <p>Tagline lorem ipsum dolor sit amet, consectetur adipiscing eiusmod</p>
-   </div>
-   <div class="footer-end">
-    <p>© 2018 Company. Privacy Policy | Terms & Conditions</p>
-   </div>
-   <div class="social-icons">
-    <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i>
-    </a>
-    <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
-    <a href="https://twitter.com/?lang=en"><i class="fab fa-twitter"></i></a>
-    <a href="https://www.instagram.com/?hl=en"><i class="fab fa-instagram"></i></a>
-    <a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a>
-   </div>
-  </div>
- </footer>
- <script type="text/javascript" src="./js/index.js"></script>
- <script type="module" src="./js/submenu.js"></script>
- <script src="./js/category-people.js"></script>
-</body>
-
+    <footer>
+      <div class="container">
+        <a href="index.html" class="logo">Art Gallery</a>
+        <div class="footer-content">
+          <p>
+            Tagline lorem ipsum dolor sit amet, consectetur adipiscing eiusmod
+          </p>
+        </div>
+        <div class="footer-end">
+          <p>© 2018 Company. Privacy Policy | Terms & Conditions</p>
+        </div>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/"
+            ><i class="fab fa-facebook"></i>
+          </a>
+          <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+          <a href="https://twitter.com/?lang=en"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a href="https://www.instagram.com/?hl=en"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="https://www.linkedin.com/"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+    <script type="text/javascript" src="./js/index.js"></script>
+    <script type="module" src="./js/submenu.js"></script>
+    <script src="./js/category-people.js"></script>
+  </body>
 </html>

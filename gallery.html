@@ -1,138 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <!-- font-family: 'Raleway', sans-serif; great vibes -->
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css" />
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/submenu.css">
-    <link rel="stylesheet" href="css/general.css">
-    <link rel="stylesheet" href="css/gallery.css"
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Righteous&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="//use.fontawesome.com/releases/v5.0.7/css/all.css"
+    />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/submenu.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/gallery.css" />
     <title>Art Gallery</title>
-</head>
+  </head>
 
-<body>
- <!-- header -->
- <header>
-    <a href="index.html" class="logo">Art Gallery</a>
-    <nav class="nav-bar">
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="gallery.html" class="link-btn">Photo Gallery</a></li>
-            <li><a href="about.html" class="link-btn">About Us</a></li>
-            <li><a href="contact.html" class="link-btn">Contact Us</a></li>
+  <body>
+    <!-- header -->
+    <header>
+      <a href="index.html" class="logo">Art Gallery</a>
+      <nav class="nav-bar">
+        <ul class="nav-link">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="gallery.html" class="link-btn">Photo Gallery</a></li>
+          <li><a href="about.html" class="link-btn">About Us</a></li>
+          <li><a href="contact.html" class="link-btn">Contact Us</a></li>
         </ul>
-        <a href="login.html"><button type="button" class="login-btn">Admin Login</button></a>
-    </nav>
- </header>
- 
- <main>
-    <!-- Section 1 - Introduction -->
-    <section class="gallery-hero-image-wrapper">
+        <a href="login.html"
+          ><button type="button" class="login-btn">Admin Login</button></a
+        >
+      </nav>
+    </header>
+
+    <main>
+      <!-- Section 1 - Introduction -->
+      <section class="gallery-hero-image-wrapper">
         <div class="gallery-hero-image">
-            <img src="/images/gallery-hero-image.jpg" alt="Hero image">
-            <div class="gallery-hero-text">
-              <h1>THE ART GALLERY COLLECTION</h1>                            
+          <img src="/images/gallery-hero-image.jpg" alt="Hero image" />
+          <div class="gallery-hero-text">
+            <h1>THE ART GALLERY COLLECTION</h1>
+          </div>
+        </div>
+      </section>
+      <!-- Section 2 - Categories -->
+      <section class="gallery-top-section">
+        <div class="gallery-wrapper">
+          <div class="row">
+            <div class="column">
+              <div class="gallery-column-content">
+                <a name="Oil Painting" href="category-oilpainting.html">
+                  <img
+                    src="/images/gallery-oil-paiting.jpg"
+                    alt="Oil Painting"
+                  />
+                </a>
+                <h5>Oil Painting</h5>
+                <p>Photo by Yaroslav Shuraev from Pexels</p>
+              </div>
+            </div>
+            <div class="column">
+              <div class="gallery-column-content">
+                <a name="People" href="category-people.html">
+                  <img src="/images/gallery-people.jpg" alt="People" />
+                </a>
+                <h5>People</h5>
+                <p>Photo by Ekaterina Shakharova from Unsplash</p>
+              </div>
+            </div>
+            <div class="column">
+              <div class="gallery-column-content">
+                <a name="Nature" href="#">
+                  <img src="/images/gallery-nature.jpg" alt="Nature" />
+                </a>
+                <h5>Nature</h5>
+                <p>Photo by Pixabay from Pexels</p>
+              </div>
             </div>
           </div>
-    </section>
-    <!-- Section 2 - Categories -->
-    <section class="gallery-top-section">
-        <div class="gallery-wrapper">
-            <div class="row">
-                <div class="column"> 
-                    <div class="gallery-column-content">                  
-                        <a name="Oil Painting" href="category-oilpainting.html">
-                            <img src="/images/gallery-oil-paiting.jpg" alt="Oil Painting">
-                        </a>                
-                        <h5>Oil Painting</h5>
-                        <p>Photo by Yaroslav Shuraev from Pexels</p>
-                    </div> 
-                </div>
-                <div class="column">
-                    <div class="gallery-column-content">                  
-                        <a name="People" href="category-people.html">
-                            <img src="/images/gallery-people.jpg" alt="People">
-                        </a>                
-                        <h5>People</h5>
-                        <p>Photo by Ekaterina Shakharova from Unsplash</p>
-                    </div> 
-                </div>
-                <div class="column">
-                    <div class="gallery-column-content">                  
-                        <a name="Nature" href="#">
-                            <img src="/images/gallery-nature.jpg" alt="Nature">
-                        </a>                
-                        <h5>Nature</h5>
-                        <p>Photo by Pixabay from Pexels</p>
-                    </div> 
-                </div>
+          <div class="row">
+            <div class="column">
+              <div class="gallery-column-content">
+                <a name="Music" href="#">
+                  <img src="/images/gallery-music.jpg" alt="Music" />
+                </a>
+                <h5>Music</h5>
+                <p>Photo by Isabella Mendes from Pexels</p>
+              </div>
             </div>
-            <div class="row">
-                <div class="column">
-                    <div class="gallery-column-content">                  
-                        <a name="Music" href="#">
-                            <img src="/images/gallery-music.jpg" alt="Music">
-                        </a>                
-                        <h5>Music</h5>
-                        <p>Photo by Isabella Mendes from Pexels</p>
-                    </div> 
-                </div>
-                <div class="column">
-                    <div class="gallery-column-content">                  
-                        <a name="Sport" href="#">
-                            <img src="/images/gallery-sport.jpg" alt="Sport">
-                        </a>                
-                        <h5>Sport</h5>
-                        <p>Photo by Binyamin Mellish from Pexels</p>
-                    </div> 
-                </div>
-                <div class="column">
-                    <div class="gallery-column-content">                  
-                        <a name="Watercolor" href="category-wator-color.html">
-                            <img src="/images/gallery-watercolor.jpg" alt="Watercolor">
-                        </a>                
-                        <h5>Watercolor</h5>
-                        <p>Photo by Steve Johnson from Pexels</p>
-                    </div> 
-                </div>
-            </div> 
-        </div>   
-    </section>
- </main>
- 
+            <div class="column">
+              <div class="gallery-column-content">
+                <a name="Sport" href="#">
+                  <img src="/images/gallery-sport.jpg" alt="Sport" />
+                </a>
+                <h5>Sport</h5>
+                <p>Photo by Binyamin Mellish from Pexels</p>
+              </div>
+            </div>
+            <div class="column">
+              <div class="gallery-column-content">
+                <a name="Watercolor" href="category-wator-color.html">
+                  <img src="/images/gallery-watercolor.jpg" alt="Watercolor" />
+                </a>
+                <h5>Watercolor</h5>
+                <p>Photo by Steve Johnson from Pexels</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
 
- <!-- sub menu -->
- <aside class="submenu">
- </aside>
+    <!-- sub menu -->
+    <aside class="submenu"></aside>
 
- <footer>
-  <div class="container">
-   <a href="index.html" class="logo">Art Gallery</a>
-   <div class="footer-content">
-    <p>Tagline lorem ipsum dolor sit amet, consectetur adipiscing eiusmod</p>
-   </div>
-   <div class="footer-end">
-    <p>© 2018 Company. Privacy Policy | Terms & Conditions</p>
-   </div>
-   <div class="social-icons">
-    <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i>
-    </a>
-    <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
-    <a href="https://twitter.com/?lang=en"><i class="fab fa-twitter"></i></a>
-    <a href="https://www.instagram.com/?hl=en"><i class="fab fa-instagram"></i></a>
-    <a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a>
-   </div>
-  </div>
- </footer>
- <script type="text/javascript" src="./js/index.js"></script>
- <script type="module" src="./js/submenu.js"></script>
-</body>
-
+    <footer>
+      <div class="container">
+        <a href="index.html" class="logo">Art Gallery</a>
+        <div class="footer-content">
+          <p>
+            Tagline lorem ipsum dolor sit amet, consectetur adipiscing eiusmod
+          </p>
+        </div>
+        <div class="footer-end">
+          <p>© 2018 Company. Privacy Policy | Terms & Conditions</p>
+        </div>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/"
+            ><i class="fab fa-facebook"></i>
+          </a>
+          <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+          <a href="https://twitter.com/?lang=en"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a href="https://www.instagram.com/?hl=en"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="https://www.linkedin.com/"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+    <script type="text/javascript" src="./js/index.js"></script>
+    <script type="module" src="./js/submenu.js"></script>
+  </body>
 </html>
