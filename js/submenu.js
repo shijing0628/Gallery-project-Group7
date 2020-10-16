@@ -27,11 +27,11 @@ linkBtns.forEach((btn) => {
       <h4>${page}</h4>
       <div class="submenu-center col-2">
       ${links
-        .map((link) => {
-          return `<a href="${link.url}"><i class="${link.icon}"></i>
+          .map((link) => {
+            return `<a href="${link.url}"><i class="${link.icon}"></i>
           ${link.label}</a>`;
-        })
-        .join("")}
+          })
+          .join("")}
       </div>
       </section>
       `;

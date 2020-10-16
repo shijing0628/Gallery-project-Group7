@@ -33,7 +33,7 @@ header .logo {
   font-weight: 700;
   color: #22a6b3;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 25px;
   letter-spacing: 1px;
   transition: 0.7s;
   font-weight: bold;
@@ -185,7 +185,7 @@ footer .logo {
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: 50%;
+    width: 55%;
     transform: translateX(100%);
     transition: transform 0.5s ease-in;
     color: white;
@@ -209,7 +209,7 @@ footer .logo {
   transform: translateX(0%);
 }
 
-@keyfreams navLinkFade {
+@keyframes navLinkFade {
   from {
     opacity: 0;
     transform: translateX(50px);
@@ -218,4 +218,14 @@ footer .logo {
     opacity: 1;
     transform: translateX(0);
   }
+}
+
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+.toggle .line2 {
+  opacity: 0;
+}
+.toggle .line3 {
+  transform: rotate(45deg) translate(-5px, -6px);
 }
