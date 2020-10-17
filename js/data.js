@@ -14,7 +14,7 @@ const sublinks = [
         url: "category-wator-color.html",
       },
       {
-        label: "People Photos",
+        label: "People",
         icon: "fa fa-paint-brush",
         url: "category-people.html",
       },
