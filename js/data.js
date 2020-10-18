@@ -24,9 +24,9 @@ const sublinks = [
         url: "sketch.html",
       },
       {
-        label: "Sculpture",
+        label: "Sports",
         icon: "fa fa-paint-brush",
-        url: "sculpture.html",
+        url: "category-sports.html",
       },
     ],
   },
