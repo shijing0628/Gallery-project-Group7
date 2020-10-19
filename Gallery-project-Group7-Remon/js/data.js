@@ -1,0 +1,51 @@
+const sublinks = [
+  {
+    page: "Photo Gallery",
+    links: [
+      {
+        label: "Oil Painting",
+        icon: "fa fa-paint-brush",
+        url: "category-oilpainting.html",
+      },
+      { label: "Aryclic", icon: "fa fa-paint-brush", url: "aryclic.html" },
+      {
+        label: "WatorColor",
+        icon: "fa fa-paint-brush",
+        url: "category-wator-color.html",
+      },
+      {
+        label: "People",
+        icon: "fa fa-paint-brush",
+        url: "category-people.html",
+      },
+      {
+        label: "Sketch",
+        icon: "fa fa-paint-brush",
+        url: "sketch.html",
+      },
+      {
+        label: "Sports",
+        icon: "fa fa-paint-brush",
+        url: "category-sports.html",
+      },
+    ],
+  },
+  {
+    page: "About Us",
+    links: [
+      { label: "History", icon: "fa fa-book", url: "history.html" },
+      { label: "Videos", icon: "fa fa-book", url: "vidoes.html" },
+      { label: "Story", icon: "fa fa-book", url: "story.html" },
+      { label: "Blog", icon: "fa fa-book", url: "blog.html" },
+    ],
+  },
+  {
+    page: "Contact Us",
+    links: [
+      { label: "location", icon: "fa fa-location-arrow", url: "contact.html" },
+      { label: "map", icon: "fa fa-map", url: "map.html" },
+    ],
+  },
+];
+
+export default sublinks;

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <!-- font-family: 'Raleway', sans-serif; great vibes-->
+ <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css" />
+ <link rel="stylesheet" href="css/index.css">
+ <link rel="stylesheet" href="css/submenu.css">
+ <link rel="stylesheet" href="css/general.css">
+ <title>Art Gallery</title>
+</head>
+
+<body>
+ <!-- header 1 -->
+ <header>
+  <a href="index.html" class="logo">Art Gallery</a>
+  <nav class="nav-bar">
+   <ul class="nav-link">
+    <li><a href="#">Home</a></li>
+    <li><a href="gallery.html" class="link-btn">Photo Gallery</a></li>
+    <li><a href="about.html" class="link-btn">About Us</a></li>
+    <li><a href="contact.html" class="link-btn">Contact Us</a></li> 
+   <li><a href="login.html"><button type="button" class="login-btn">Admin Login</button></a></li>
+    </ul>
+    <div class="burger toggle">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+    </div>
+  </nav>
+ </header>
+ <!-- section 1 banner -->
+ <section class="banner hero">
+  <div class="slideshow-container">
+   <div class="mySlides div1 fade"></div>
+   <div class="mySlides div2 fade"></div>
+   <div class="mySlides div3 fade"></div>
+   <div class="mySlides div4 fade"></div>
+   <a onclick="previousSlides()" class="prev">&#10094;</a>
+   <a onclick="plusSlides()" class="next">&#10095;</a>
+  </div>
+  <div class="gallery-button">
+   <div>
+    <a href="gallery.html">
+     <span>ENTER GALLERY</span>
+    </a>
+   </div>
+  </div>
+ </section>
+ <!-- sub menu -->
+ <aside class="submenu">
+ </aside>
+
+ <footer>
+  <div class="container">
+   <a href="index.html" class="logo">Art Gallery</a>
+   <div class="footer-content">
+    <p>Tagline lorem ipsum dolor sit amet, consectetur adipiscing eiusmod</p>
+   </div>
+   <div class="footer-end">
+    <p>© 2018 Company. Privacy Policy | Terms & Conditions</p>
+   </div>
+   <div class="social-icons">
+    <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i>
+    </a>
+    <a href="https://www.youtube.com/""><i class=" fab fa-youtube"></i> </a>
+    <a href="https://twitter.com/?lang=en"><i class="fab fa-twitter"></i> </a>
+    <a href="https://www.instagram.com/?hl=en"><i class="fab fa-instagram"></i> </a>
+    <a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i> </a>
+   </div>
+  </div>
+ </footer>
+ <script type="text/javascript" src="./js/index.js"></script>
+ <script type="module" src="./js/submenu.js"></script>
+</body>
+
+</html>
