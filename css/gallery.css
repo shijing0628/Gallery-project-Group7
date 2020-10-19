@@ -58,7 +58,8 @@ h5 {
 
 .column {
     float: left;
-    width: calc(33.3333%);
+    /* width: calc(33.3333%); */
+    width: 50%;
 }
 
 .row:after {
