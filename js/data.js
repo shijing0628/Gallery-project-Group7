@@ -7,7 +7,7 @@ const sublinks = [
         icon: "fa fa-paint-brush",
         url: "category-oilpainting.html",
       },
-      { label: "Aryclic", icon: "fa fa-paint-brush", url: "aryclic.html" },
+      // { label: "Aryclic", icon: "fa fa-paint-brush", url: "aryclic.html" },
       {
         label: "WatorColor",
         icon: "fa fa-paint-brush",
@@ -18,11 +18,11 @@ const sublinks = [
         icon: "fa fa-paint-brush",
         url: "category-people.html",
       },
-      {
-        label: "Sketch",
-        icon: "fa fa-paint-brush",
-        url: "sketch.html",
-      },
+      // {
+      //   label: "Sketch",
+      //   icon: "fa fa-paint-brush",
+      //   url: "sketch.html",
+      // },
       {
         label: "Sports",
         icon: "fa fa-paint-brush",

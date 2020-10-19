@@ -2,14 +2,14 @@ filterCategory('all');
 function filterCategory(filter) {
     let allElements, i;
     allElements = document.getElementsByClassName('image-column');
-    console.log(allElements);
+    //console.log(allElements);
 
     if (filter == 'all') filter='';
     for (i = 0; i < allElements.length; i++) {
         removeClass(allElements[i], 'showCategory');
-        console.log("test");
+        //console.log("test");
         if (allElements[i].className.indexOf(filter) > -1) addClass(allElements[i], 'showCategory');
-        console.log("show class should be added!");
+        //console.log("show class should be added!");
     }
 }
 
@@ -23,7 +23,7 @@ function addClass(element, classShowCategory) {
             element.className += ' ' + arr2[i];
         }
     }
-    console.log("got into addClass - Added showCategory to div");
+    //console.log("got into addClass - Added showCategory to div");
 }
 
 function removeClass(element, classShowCategory) {
@@ -35,10 +35,8 @@ function removeClass(element, classShowCategory) {
         while (arr1.indexOf(arr2[i]) > -1) {
             arr1.splice(arr1.indexOf(arr2[i]), 1);
         }
-    }
-    console.log("got into removeClass");
-    element.className = arr1.join(' ');
-    console.log("what did you remove?");
+    }    
+    element.className = arr1.join(' ');    
 }
 
 
@@ -52,3 +50,24 @@ for (let i = 0; i < btns.length; i++ ) {
         this.className += ' active';
     });
 }
+
+
+// The Modal
+let modal = document.querySelector(".modal");
+let modalImage = document.querySelector(".modalImage");
+let modalCaption = document.querySelector(".modalCaption"); 
+let imageThumbnails = document.querySelectorAll(".imageThumbnail");
+//console.log(imageThumbnails);
+
+imageThumbnails.forEach(item => {
+    item.addEventListener("click", modalEvent => {
+        //console.log(modalEvent);
+        modal.style.display = "block";
+        modalImage.src = modalEvent.target.src;
+        modalCaption.innerHTML = modalEvent.target.alt;
+    })
+});
+
+document.querySelector(".modalClose").addEventListener("click", () => {
+    modal.style.display = "none";
+});
