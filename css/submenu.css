@@ -17,7 +17,7 @@ a {
 .submenu {
   background: #fff;
   box-shadow: 5px 15px 15px rgba(0, 0, 0, 0.2);
-  position: absolute;
+  position: fixed;
   top: 4rem;
   left: 50%;
   transform: translateX(-50%);
