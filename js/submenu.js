@@ -39,7 +39,7 @@ linkBtns.forEach((btn) => {
   });
 });
 
-// hover other places submenu cannot display
+// hover other places submenu will not display
 hero.addEventListener("mouseover", function () {
   subMenu.classList.remove("show");
 });
