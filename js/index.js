@@ -48,7 +48,7 @@ var slidersDisplay = function (n) {
     //   sliders[i].classList.remove("active");
     // }
   }
-  console.log(n, sliders.length);
+  // console.log(n, sliders.length);
   if (n > sliders.length - 1) {
     n = 0;
   }
